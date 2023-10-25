@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(203, 203, 204);
+}
+
+.container{
+    width: 100%;
+    margin-top: 20%;
+}
+
+#counter{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#decrement-btn,
+#reset-btn,
+#increment-btn{
+    position: relative;
+    left: 42%;
+}
+
+#decrement-btn:hover{
+    /* border-radius: 30px; */
+    transition: .3s;
+    background-color: red;
+    color: white;
+    border: 0px;
+}
+
+#reset-btn:hover{
+    background-color: black;
+    color: white;
+    border: 0px;
+    transition: .3s;
+}
+
+#increment-btn:hover{
+    background-color: green;
+    color: white;
+    border: 0px;
+    transition: .3s;
+}
